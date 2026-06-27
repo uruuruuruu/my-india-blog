@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>閑雲野鶴 - インド</title><link href="[https://uruuruuruu.github.io/my-india-blog](https://uruuruuruu.github.io/my-india-blog)/" rel="alternate"/><link href="[https:/uruuruuruu.github.io/my-india-blog](https:/uruuruuruu.github.io/my-india-blog)/feeds/indo.atom.xml" rel="self"/><id>[https://uruuruuruu.github.io/my-india-blog](https://uruuruuruu.github.io/my-india-blog)/</id><updated>2026-03-30T18:00:00+09:00</updated><entry><title>これだけは...</title><link href="[https:/uruuruuruu.github.io/my-india-blog](https:/uruuruuruu.github.io/my-india-blog)/india-essential-guide2.html" rel="alternate"/><published>2026-03-30T18:00:00+09:00</published><updated>2026-03-30T18:00:00+09:00</updated><author><name>Yuu</name></author><id>tag:None,2026-03-30:[https:/uruuruuruu.github.io/my-india-blog](https:/uruuruuruu.github.io/my-india-blog)/india-essential-guide2.html</id><summary type="html">&lt;style&gt;
+/* 明朝体を基調とした文芸誌風ミニマル・タイポグラフィ */
+.minimal-monochrome {
+    font-family: "Hiragino Mincho ProN", "YuMincho", "Yu Mincho", "Sawarabi Mincho", serif;
+    color: #111111;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    max-width: 720px;
+    margin: 0 auto;
+    padding …&lt;/style&gt;</summary><content type="html">&lt;style&gt;
+/* 明朝体を基調とした文芸誌風ミニマル・タイポグラフィ */
+.minimal-monochrome {
+    font-family: "Hiragino Mincho ProN", "YuMincho", "Yu Mincho", "Sawarabi Mincho", serif;
+    color: #111111;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
+/* メイン写真＆記事内の写真：枠線をなくし、写真そのものの力強さを活かす */
+.minimal-monochrome img {
+    width: 100%;
+    height: auto;
+    margin: 2.5rem 0;
+    display: block;
+}
+
+.minimal-intro {
+    font-size: 1.05rem;
+    color: #111111;
+    margin-bottom: 5rem;
+}
+
+.minimal-intro p {
+    margin-bottom: 1.5rem;
+}
+
+.minimal-section {
+    margin-bottom: 4rem;
+}
+
+/* セクションタイトル：明朝体の美しさが際立つサイズと余白 */
+.minimal-section h2 {
+    font-size: 1.7rem;
+    font-weight: normal; 
+    color: #000000;
+    margin: 0 0 3.5rem 0;
+    letter-spacing: 0.1em;
+    text-align: center; 
+}
+
+.minimal-item {
+    margin-bottom: 4.5rem;
+}
+
+/* 小見出し */
+.minimal-item h3 {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #000000;
+    margin: 0 0 1.2rem 0;
+    display: flex;
+    align-items: center;
+}
+
+/* 英語ラベル */
+.minimal-item h3 span {
+    font-size: 0.75rem;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: normal;
+    font-style: italic;
+    color: #555555;
+    margin-right: 1.2rem;
+    letter-spacing: 0.05em;
+}
+
+.minimal-item p {
+    margin: 0 0 0.8rem 0;
+    font-size: 1.05rem;
+    color: #222222;
+}
+
+/* 強調テキスト */
+.highlight-text {
+    font-weight: bold;
+    color: #000000;
+    background: linear-gradient(transparent 70%, #dddddd 0%); 
+}
+
+/* ★新規追加：セクション間の細い区切り線 */
+.minimal-divider {
+    border: none;
+    border-top: 1px solid #eaeaea; /* 極めて薄いグレーの細線 */
+    margin: 5rem auto; /* 上下にたっぷりと余白を取る */
+    width: 60%; /* 線の長さを少し短くして上品に */
+}
+
+/* ブログカード */
+.minimal-monochrome .blog-card {
+    border: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+    padding: 1.5rem 0 !important;
+    display: block;
+    margin-top: 2rem;
+    text-decoration: none;
+    border-top: 1px solid #eeeeee !important;
+    border-bottom: 1px solid #eeeeee !important;
+}
+.minimal-monochrome .blog-card-title {
+    display: block;
+    font-weight: bold;
+    font-size: 1.1rem;
+    color: #000000;
+    margin-bottom: 0.8rem;
+}
+.minimal-monochrome .blog-card-desc {
+    display: block;
+    font-size: 0.9rem;
+    color: #555555;
+    margin-bottom: 0.8rem;
+    line-height: 1.7;
+}
+.minimal-monochrome .blog-card-url {
+    display: block;
+    font-size: 0.8rem;
+    font-family: "Times New Roman", Times, serif;
+    font-style: italic;
+    color: #999999;
+    letter-spacing: 0.05em;
+}
+&lt;/style&gt;
+
+&lt;div class="minimal-monochrome"&gt;
+
+&lt;!-- メインビジュアル（HTMLタグに修正し、確実に表示させます） --&gt;
+&lt;img src="[https:/uruuruuruu.github.io/my-india-blog](https:/uruuruuruu.github.io/my-india-blog)/images/1.jpg" alt="バラナシの風景"&gt;
+
+&lt;div class="minimal-intro"&gt;
+    &lt;p&gt;春、約1週間のインド旅行に行ってきた。&lt;/p&gt;
+    &lt;p&gt;わからないことだらけだった。痒いところに手が届かないような下調べで終わってしまった。&lt;/p&gt;
+    &lt;p&gt;これから行く人の参考になればと思い、記録を残す。&lt;/p&gt;
+    &lt;p&gt;ただ、個人的には下調べをしすぎてはインド旅行の醍醐味が減ると思った。&lt;/p&gt;
+    &lt;p&gt;最低限これだけは！という情報だけを厳選した！&lt;/p&gt;
+&lt;/div&gt;
+
+
+&lt;div class="minimal-section"&gt;
+    &lt;h2&gt;１.渡航前の準備&lt;/h2&gt;
+
+    &lt;div class="minimal-item"&gt;
+        &lt;h3&gt;&lt;span&gt;1&lt;/span&gt;e-Visa申請は時間がかかる&lt;/h3&gt;
+        &lt;p&gt;インドのビザ申請はとにかく時間がかかる。&lt;/p&gt;
+        &lt;p&gt;エラーも多く、手続きは非常に厄介であった。インターネット環境がいいところでやるのはもちろんのこと、都度都度保存を忘れずに！保存しておかないと再読み込みした時にデータが消える！&lt;/p&gt;
+        &lt;p&gt;後回しにせず、余裕を持って準備を始めたほうがいい！あと、偽サイトを踏まないために自分はJALのインド旅行を紹介してるところから飛んだ。&lt;/p&gt;
+        &lt;p&gt;↓参考にしたサイト&lt;/p&gt;
+        &lt;!-- 自動生成したブログカード --&gt;
+        &lt;div class="blog-card-wrapper"&gt;&lt;a href="https://skyticket.jp/guide/534297/" class="blog-card" target="_blank" rel="noopener noreferrer"&gt;&lt;span class="blog-card-title"&gt;【図解】インドe-Visa観光用を公式サイトで自分で申請する方法&lt;/span&gt;&lt;span class="blog-card-desc"&gt;インド旅行に必須のe-Visa（電子ビザ）。公式サイトから自分で申請すれば、25.89ドル（約4000円）と大幅に費用を節約できます。しかし、入力項目が非常に多く、すべて英語表記。さらに、読み込みエラーが発生しやすく、かなり厄介な手続きです...&lt;/span&gt;&lt;span class="blog-card-url"&gt;skyticket.jp&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;div class="minimal-item"&gt;
+        &lt;h3&gt;&lt;span&gt;2&lt;/span&gt;ワクチンは一ヶ月前から&lt;/h3&gt;
+        &lt;p&gt;渡航用のワクチン接種はしておいたほうが安心！&lt;/p&gt;
+        &lt;p&gt;抗体ができるまでの期間や複数回接種を考慮する必要がある。&lt;/p&gt;
+        &lt;p&gt;最低でも出発の一ヶ月前にはクリニックで打ち始めなければ自分みたいに大急ぎでクリニックを探し、結局間に合わずノーワクチン残機1機ハラハラインド旅行を楽しむことになる！！！&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- ★区切り線を追加 --&gt;
+&lt;hr class="minimal-divider"&gt;
+
+&lt;div class="minimal-section"&gt;
+    &lt;h2&gt;２.移動について&lt;/h2&gt;
+
+    &lt;div class="minimal-item"&gt;
+        &lt;h3&gt;&lt;span&gt;1&lt;/span&gt;Uber配車時のスクショは必須！&lt;/h3&gt;
+        &lt;p&gt;移動は基本的にUberを使うべきだと思う。料金交渉の手間が省けたし、使わないで野良のタクシーを使った場合、観光詐欺をしている場所に連れて行かれ５０万円ぼったくられたという話も旅の道中で聞いた！&lt;/p&gt;
+        &lt;p&gt;ただし、Uberであっても詐欺を仕掛けてくるドライバーはいる。（自分も一回、入ってくるのにお金がかかったとか、警察に足止めされたとか言って、なんとかぼったくろうとしようとしてきた輩がいた！）&lt;/p&gt;
+        &lt;p&gt;↓実際の詐欺師の戯言！&lt;/p&gt;
+        &lt;img src="[https:/uruuruuruu.github.io/my-india-blog](https:/uruuruuruu.github.io/my-india-blog)/images/screen.jpg" alt="詐欺師の戯言" style="width: 35%; margin: 0 auto;"&gt;
+        &lt;p&gt;&lt;span class="highlight-text"&gt;配車が完了する前に、金額が書かれた画面を必ずスクショすること。&lt;/span&gt;&lt;/p&gt;
+        &lt;p&gt;↓実際のスクショ&lt;/p&gt;
+        &lt;img src="[https:/uruuruuruu.github.io/my-india-blog](https:/uruuruuruu.github.io/my-india-blog)/images/screen1.jpg" alt="実際のスクショ" style="width: 35%; margin: 0 auto;"&gt;
+        &lt;p&gt;降車時にトラブルになりかけたとき、そのスクショを見せれば結構なんとかなった！なんとかしてぼったくろうとしてくる人には論より証拠！&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div class="minimal-item"&gt;
+        &lt;h3&gt;&lt;span&gt;2&lt;/span&gt;寝台列車...&lt;/h3&gt;
+        &lt;p&gt;インドの寝台列車は想像以上に過酷であった。&lt;/p&gt;
+        &lt;p&gt;運行状況は基本アプリで追えるが、どこのプラットフォームに来るかは直前までわからなかった。わからなかったら現地の人に直接聞くべき！&lt;/p&gt;
+        &lt;p&gt;自分はプラットフォームも乗る号車（めちゃくちゃ列車が長いからただ乗るだけじゃ不十分）も現地の人に聞いて一命を取り留めた。&lt;/p&gt;
+        &lt;p&gt;さらに、停車時間がわずか一分しかない駅もあった。&lt;/p&gt;
+        &lt;p&gt;基本到着するのが早くなることはないが、アプリの予測を鵜呑みにすると痛い目に遭うと思う。自分が乗った列車はかなり予測時間が変動した。&lt;/p&gt;
+        &lt;p&gt;↓"updated 3m ago"って書いてあるように頻繁にアプデあり&lt;/p&gt;
+        &lt;img src="[https:/uruuruuruu.github.io/my-india-blog](https:/uruuruuruu.github.io/my-india-blog)/images/train.jpg" alt="詐欺師の戯言" style="width: 35%; margin: 0 auto;"&gt;
+        &lt;p&gt;最短で何時間っていうのは調べればわかると思うから、その最短時間の時には起きておくべき。&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- ★区切り線を追加 --&gt;
+&lt;hr class="minimal-divider"&gt;
+
+&lt;div class="minimal-section"&gt;
+    &lt;h2&gt;３.対人関係と困ったときに&lt;/h2&gt;
+
+    &lt;div class="minimal-item"&gt;
+        &lt;h3&gt;&lt;span&gt;1&lt;/span&gt;客引きは透明人間！&lt;/h3&gt;
+        &lt;p&gt;基本、向こうから笑顔で話しかけてくる人は騙そうとしている人だと思っておいたほうがいい。&lt;/p&gt;
+        &lt;p&gt;心温まる交流もたしかにあるが、体感として一対一の割合だった。&lt;/p&gt;
+        &lt;p&gt;客引きに対しては、目を合わせないのが一番良かった。ちょっとでも反応しちゃうと100mぐらい追いかけられる羽目になる！&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div class="minimal-item"&gt;
+        &lt;h3&gt;&lt;span&gt;2&lt;/span&gt;タージマハルの靴カバー詐欺！&lt;/h3&gt;
+        &lt;p&gt;タージマハルの敷地に入る直前、靴カバーを売りつけてくる輩がいる。&lt;/p&gt;
+        &lt;p&gt;まじで買う必要ない&lt;/p&gt;
+        &lt;p&gt;中に入れば、観光客用に無料で借りられるものがちゃんと用意されているから金ドブ。&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div class="minimal-item"&gt;
+        &lt;h3&gt;&lt;span&gt;3&lt;/span&gt;困ったらAIか、自ら選んだ現地民へ&lt;/h3&gt;
+        &lt;p&gt;わからないことやトラブルがあれば、まずはAIに聞くのがおすすめ。今回の旅は９割５分ぐらい助けられた。&lt;/p&gt;
+        &lt;p&gt;それでも解決しない場合は、「向こうから来た人」ではなく「自分から選んだ現地の人」に話しかけて助けを求めた。面白いことに、自分から話しかけた人はほとんど親切な人ばかりで感動したのを覚えている。&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;!-- ★区切り線を追加 --&gt;
+&lt;hr class="minimal-divider"&gt;
+
+&lt;div class="minimal-section"&gt;
+    &lt;h2&gt;４.食べ物と旅の計画&lt;/h2&gt;
+
+    &lt;div class="minimal-item"&gt;
+        &lt;h3&gt;&lt;span&gt;1&lt;/span&gt;生野菜と氷は絶対避ける！&lt;/h3&gt;
+        &lt;p&gt;水はちゃんと危険&lt;/p&gt;
+        &lt;p&gt;生野菜と氷が入った飲み物が結構あるけど、できるだけ避けるべき。自分は４日目ぐらいまで持ったけど、そこから下痢地獄だった。薬が効かず、30分に一回トイレに行きたくなった。&lt;/p&gt;
+        &lt;p&gt;せっかくのタージマハルも便意との戦いに途中からすり替わってしまった...&lt;/p&gt;
+    &lt;/div&gt;
+
+    &lt;div class="minimal-item"&gt;
+        &lt;h3&gt;&lt;span&gt;2&lt;/span&gt;何もしない時間も大事&lt;/h3&gt;
+        &lt;p&gt;インドの空気、音、暑さは想像以上に過酷だった！&lt;/p&gt;
+        &lt;p&gt;スケジュールは詰め込まず、これでもかというほど空き時間を作ることをおすすめする。&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;hr class="minimal-divider"&gt;
+
+&lt;div class="minimal-section"&gt;
+    &lt;h2&gt;５.まとめ&lt;/h2&gt;
+
+    &lt;div class="minimal-item"&gt;
+        &lt;h3&gt;&lt;span&gt;Excited!&lt;/span&gt;刺激的すぎたインド旅行&lt;/h3&gt;
+        &lt;p&gt;最高かつ最悪のインド旅行であった。&lt;/p&gt;
+        &lt;p&gt;しかし、もう一度行くだろうという確信がある。それぐらいチャーミングな国であった。&lt;/p&gt;
+        &lt;p&gt;Thank you india!&lt;/p&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</content><category term="インド"/><category term="旅行"/><category term="準備"/><category term="カルチャーショック"/></entry></feed>

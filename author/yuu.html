@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="utf-8">
+    <title>閑雲野鶴 - Articles by Yuu</title>
+    <style>
+        /* 全体のリセット */
+        body { 
+            background-color: #ffffff; 
+            color: #222222; 
+            font-family: 'Hiragino Mincho ProN', 'Yu Mincho', serif;
+            margin: 0; 
+            padding: 0; 
+        }
+        a { text-decoration: none; color: inherit; }
+
+        /* --- 1. Appleライクな上部バー --- */
+        .top-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 44px;
+            background-color: rgba(255, 255, 255, 0.3); /* 初期状態の透過度 */
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+            display: flex;
+            align-items: center;
+            z-index: 1000;
+            overflow: hidden; /* ★超重要: バーの右外にはみ出た「客車」を隠す */
+            transition: background-color 0.8s ease;
+        }
+
+        /* タイトル部分 */
+        .top-bar-left {
+            padding-left: 5%;
+            z-index: 20; /* 画像より上に配置 */
+        }
+        .top-bar-title {
+            font-size: 1.2em;
+            letter-spacing: 4px;
+        }
+
+        /* --- 2. スライドする「列車」全体（画像＋メニュー） --- */
+        .slide-container {
+            position: absolute;
+            right: 0; /* 常に画面の右端を基準にする（これで右詰め問題解消） */
+            top: 0;
+            height: 100%;
+            display: flex; /* 画像とメニューを横並びにして重なりを防ぐ */
+            align-items: center;
+            /* メニュー部分（400px）だけを画面の右外に押し出す。画像だけが画面内に残る */
+            transform: translateX(400px); 
+            /* ★1.2秒かけてゆっくり、優雅にスライドさせる設定 */
+            transition: transform 1.2s cubic-bezier(0.2, 0.8, 0.2, 1);
+            z-index: 10;
+        }
+
+        /* 列車の先頭（画像） */
+        .crane-img {
+            height: 44px;
+            opacity: 0.5; /* 初期状態は少し透けさせる */
+            transition: opacity 1.2s ease;
+        }
+
+        /* 列車の後続（メニューと背景） */
+        .menu-content {
+            width: 400px; /* ここが画面外に隠れる幅 */
+            height: 100%;
+            /* ★手書き図の再現：画像の右側に色をつけて差別化 */
+            background-color: rgba(255, 255, 255, 0.3); /* 初期状態の透過度 */
+            backdrop-filter: blur(12px);
+            align-items: center;
+            padding: 0 20px;
+            box-sizing: border-box;
+        }
+
+        /* メニュー内のデザイン */
+        .article-links ul { list-style: none; padding: 0; margin: 0; display: flex; }
+        .article-links li { margin-right: 20px; font-size: 0.9em; }
+        .search-box { height: 28px; padding: 0 10px; border: 1px solid #ccc; border-radius: 4px; background-color: rgba(255,255,255,0.8); }
+
+        /* --- 3. 引き連れられる要素のアニメーション準備 --- */
+        .menu-item {
+            opacity: 0; /* 最初は透明 */
+            transform: translateX(20px); /* 少し右にずらしておく */
+            transition: all 0.8s ease;
+        }
+
+        /* --- 4. ★ホバー時の魔法★ --- */
+        /* バーにポインターが触れたら… */
+        
+        /* 1. バー全体が少しはっきりする */
+        .top-bar:hover { background-color: rgba(255, 255, 255, 0.6); }
+        
+        /* 2. 列車全体がゆっくり左にスライドしてくる！（隠れていた400pxが現れる） */
+        .top-bar:hover .slide-container { transform: translateX(0); }
+        
+        /* 3. 画像がくっきりする */
+        .top-bar:hover .crane-img { opacity: 1; }
+
+        /* 4. メニューの文字や検索ボックスが順に現れる */
+        .top-bar:hover .menu-item {
+            opacity: 1;
+            transform: translateX(0);
+        }
+        /* 記事一覧が先に現れ、検索ボックスが少し遅れて現れる */
+        .top-bar:hover .delay-1 { transition-delay: 0.3s; }
+        .top-bar:hover .delay-2 { transition-delay: 0.5s; }
+
+        /* メインコンテンツ */
+        main { margin-top: 100px; padding: 0 10%; max-width: 800px; margin-left: auto; margin-right: auto; }
+        main img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 20px auto;
+            border-radius: 17px; /* 角を少し丸くするとApple風になります */
+        }
+        /* --- ブログカード（画像なし・文字のみ）のデザイン --- */
+        .blog-card-wrapper {
+            margin: 40px 0; /* 外側の余白はここで取る */
+        }
+        .blog-card {
+            display: block; 
+            border: 1px solid #eeeeee;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #333333;
+            padding: 20px 25px; 
+            background-color: #fafafa;
+            transition: all 0.3s ease;
+        }
+        .blog-card:hover {
+            background-color: #ffffff;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            transform: translateY(-2px);
+        }
+        .blog-card-title {
+            display: -webkit-box;
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-bottom: 8px; 
+            -webkit-line-clamp: 1; 
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        .blog-card-desc {
+            display: -webkit-box;
+            font-size: 0.85em;
+            color: #777777;
+            margin-bottom: 15px; 
+            -webkit-line-clamp: 2; 
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            line-height: 1.6;
+        }
+        .blog-card-url {
+            display: block;
+            font-size: 0.75em;
+            color: #aaaaaa;
+            text-align: right; 
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+    <header class="top-bar">
+        <div class="top-bar-left">
+            <div class="top-bar-title"><a href="/">閑雲野鶴</a></div>
+        </div>
+
+        <div class="slide-container">
+            <img src="/images/crane-figure.png" alt="鶴と雲の図" class="crane-img">
+            
+            <div class="menu-content">
+                <input type="text" class="search-box menu-item delay-2" placeholder="検索...">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <article style="margin-bottom: 80px;">
+            <h2 style="font-size: 1.8em; margin-bottom: 10px; font-weight: normal;">
+                <a href="/india-essential-guide2.html">これだけは...</a>
+            </h2>
+            <div style="color: #999; margin-bottom: 20px; font-size: 0.9em; letter-spacing: 1px;">
+                2026/3/30
+            </div>
+            <div style="line-height: 1.8; color: #555;">
+                <style>
+/* 明朝体を基調とした文芸誌風ミニマル・タイポグラフィ */
+.minimal-monochrome {
+    font-family: "Hiragino Mincho ProN", "YuMincho", "Yu Mincho", "Sawarabi Mincho", serif;
+    color: #111111;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+    max-width: 720px;
+    margin: 0 auto;
+    padding …</style>
+            </div>
+        </article>
+    </main>
+</body>
+</html>
