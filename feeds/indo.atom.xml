@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>閑雲野鶴 - インド</title><link href="[https://uruuruuruu.github.io/my-india-blog](https://uruuruuruu.github.io/my-india-blog)/" rel="alternate"/><link href="[https:/uruuruuruu.github.io/my-india-blog](https:/uruuruuruu.github.io/my-india-blog)/feeds/indo.atom.xml" rel="self"/><id>[https://uruuruuruu.github.io/my-india-blog](https://uruuruuruu.github.io/my-india-blog)/</id><updated>2026-03-30T18:00:00+09:00</updated><entry><title>これだけは...</title><link href="[https:/uruuruuruu.github.io/my-india-blog](https:/uruuruuruu.github.io/my-india-blog)/india-essential-guide2.html" rel="alternate"/><published>2026-03-30T18:00:00+09:00</published><updated>2026-03-30T18:00:00+09:00</updated><author><name>Yuu</name></author><id>tag:None,2026-03-30:[https:/uruuruuruu.github.io/my-india-blog](https:/uruuruuruu.github.io/my-india-blog)/india-essential-guide2.html</id><summary type="html">&lt;style&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>閑雲野鶴 - インド</title><link href="https://uruuruuruu.github.io/my-india-blog/" rel="alternate"/><link href="https://uruuruuruu.github.io/my-india-blog/feeds/indo.atom.xml" rel="self"/><id>https://uruuruuruu.github.io/my-india-blog/</id><updated>2026-03-30T18:00:00+09:00</updated><entry><title>これだけは...</title><link href="https://uruuruuruu.github.io/my-india-blog/india-essential-guide2.html" rel="alternate"/><published>2026-03-30T18:00:00+09:00</published><updated>2026-03-30T18:00:00+09:00</updated><author><name>Yuu</name></author><id>tag:uruuruuruu.github.io,2026-03-30:/my-india-blog/india-essential-guide2.html</id><summary type="html">&lt;style&gt;
 /* 明朝体を基調とした文芸誌風ミニマル・タイポグラフィ */
 .minimal-monochrome {
     font-family: "Hiragino Mincho ProN", "YuMincho", "Yu Mincho", "Sawarabi Mincho", serif;
@@ -137,7 +137,7 @@
 &lt;div class="minimal-monochrome"&gt;
 
 &lt;!-- メインビジュアル（HTMLタグに修正し、確実に表示させます） --&gt;
-&lt;img src="[https:/uruuruuruu.github.io/my-india-blog](https:/uruuruuruu.github.io/my-india-blog)/images/1.jpg" alt="バラナシの風景"&gt;
+&lt;img src="https://uruuruuruu.github.io/my-india-blog/images/1.jpg" alt="バラナシの風景"&gt;
 
 &lt;div class="minimal-intro"&gt;
     &lt;p&gt;春、約1週間のインド旅行に行ってきた。&lt;/p&gt;
@@ -180,10 +180,10 @@
         &lt;p&gt;移動は基本的にUberを使うべきだと思う。料金交渉の手間が省けたし、使わないで野良のタクシーを使った場合、観光詐欺をしている場所に連れて行かれ５０万円ぼったくられたという話も旅の道中で聞いた！&lt;/p&gt;
         &lt;p&gt;ただし、Uberであっても詐欺を仕掛けてくるドライバーはいる。（自分も一回、入ってくるのにお金がかかったとか、警察に足止めされたとか言って、なんとかぼったくろうとしようとしてきた輩がいた！）&lt;/p&gt;
         &lt;p&gt;↓実際の詐欺師の戯言！&lt;/p&gt;
-        &lt;img src="[https:/uruuruuruu.github.io/my-india-blog](https:/uruuruuruu.github.io/my-india-blog)/images/screen.jpg" alt="詐欺師の戯言" style="width: 35%; margin: 0 auto;"&gt;
+        &lt;img src="https://uruuruuruu.github.io/my-india-blog/images/screen.jpg" alt="詐欺師の戯言" style="width: 35%; margin: 0 auto;"&gt;
         &lt;p&gt;&lt;span class="highlight-text"&gt;配車が完了する前に、金額が書かれた画面を必ずスクショすること。&lt;/span&gt;&lt;/p&gt;
         &lt;p&gt;↓実際のスクショ&lt;/p&gt;
-        &lt;img src="[https:/uruuruuruu.github.io/my-india-blog](https:/uruuruuruu.github.io/my-india-blog)/images/screen1.jpg" alt="実際のスクショ" style="width: 35%; margin: 0 auto;"&gt;
+        &lt;img src="https://uruuruuruu.github.io/my-india-blog/images/screen1.jpg" alt="実際のスクショ" style="width: 35%; margin: 0 auto;"&gt;
         &lt;p&gt;降車時にトラブルになりかけたとき、そのスクショを見せれば結構なんとかなった！なんとかしてぼったくろうとしてくる人には論より証拠！&lt;/p&gt;
     &lt;/div&gt;
 
@@ -195,7 +195,7 @@
         &lt;p&gt;さらに、停車時間がわずか一分しかない駅もあった。&lt;/p&gt;
         &lt;p&gt;基本到着するのが早くなることはないが、アプリの予測を鵜呑みにすると痛い目に遭うと思う。自分が乗った列車はかなり予測時間が変動した。&lt;/p&gt;
         &lt;p&gt;↓"updated 3m ago"って書いてあるように頻繁にアプデあり&lt;/p&gt;
-        &lt;img src="[https:/uruuruuruu.github.io/my-india-blog](https:/uruuruuruu.github.io/my-india-blog)/images/train.jpg" alt="詐欺師の戯言" style="width: 35%; margin: 0 auto;"&gt;
+        &lt;img src="https://uruuruuruu.github.io/my-india-blog/images/train.jpg" alt="詐欺師の戯言" style="width: 35%; margin: 0 auto;"&gt;
         &lt;p&gt;最短で何時間っていうのは調べればわかると思うから、その最短時間の時には起きておくべき。&lt;/p&gt;
     &lt;/div&gt;
 &lt;/div&gt;
