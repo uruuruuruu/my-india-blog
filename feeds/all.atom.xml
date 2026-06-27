@@ -66,9 +66,9 @@
     align-items: center;
 }
 
-/* 英語ラベル */
+/* 英語ラベル（数字など） */
 .minimal-item h3 span {
-    font-size: 0.75rem;
+    font-size: 0.85rem;
     font-family: "Times New Roman", Times, serif;
     font-weight: normal;
     font-style: italic;
@@ -90,12 +90,12 @@
     background: linear-gradient(transparent 70%, #dddddd 0%); 
 }
 
-/* ★新規追加：セクション間の細い区切り線 */
+/* セクション間の細い区切り線 */
 .minimal-divider {
     border: none;
-    border-top: 1px solid #eaeaea; /* 極めて薄いグレーの細線 */
-    margin: 5rem auto; /* 上下にたっぷりと余白を取る */
-    width: 60%; /* 線の長さを少し短くして上品に */
+    border-top: 1px solid #eaeaea;
+    margin: 5rem auto;
+    width: 60%;
 }
 
 /* ブログカード */
@@ -136,7 +136,7 @@
 
 &lt;div class="minimal-monochrome"&gt;
 
-&lt;!-- メインビジュアル（HTMLタグに修正し、確実に表示させます） --&gt;
+&lt;!-- メインビジュアル --&gt;
 &lt;img src="https://uruuruuruu.github.io/my-india-blog/images/1.jpg" alt="バラナシの風景"&gt;
 
 &lt;div class="minimal-intro"&gt;
@@ -149,7 +149,7 @@
 
 
 &lt;div class="minimal-section"&gt;
-    &lt;h2&gt;１.渡航前の準備&lt;/h2&gt;
+    &lt;h2&gt;１. 渡航前の準備&lt;/h2&gt;
 
     &lt;div class="minimal-item"&gt;
         &lt;h3&gt;&lt;span&gt;1&lt;/span&gt;e-Visa申請は時間がかかる&lt;/h3&gt;
@@ -157,7 +157,6 @@
         &lt;p&gt;エラーも多く、手続きは非常に厄介であった。インターネット環境がいいところでやるのはもちろんのこと、都度都度保存を忘れずに！保存しておかないと再読み込みした時にデータが消える！&lt;/p&gt;
         &lt;p&gt;後回しにせず、余裕を持って準備を始めたほうがいい！あと、偽サイトを踏まないために自分はJALのインド旅行を紹介してるところから飛んだ。&lt;/p&gt;
         &lt;p&gt;↓参考にしたサイト&lt;/p&gt;
-        &lt;!-- 自動生成したブログカード --&gt;
         &lt;div class="blog-card-wrapper"&gt;&lt;a href="https://skyticket.jp/guide/534297/" class="blog-card" target="_blank" rel="noopener noreferrer"&gt;&lt;span class="blog-card-title"&gt;【図解】インドe-Visa観光用を公式サイトで自分で申請する方法&lt;/span&gt;&lt;span class="blog-card-desc"&gt;インド旅行に必須のe-Visa（電子ビザ）。公式サイトから自分で申請すれば、25.89ドル（約4000円）と大幅に費用を節約できます。しかし、入力項目が非常に多く、すべて英語表記。さらに、読み込みエラーが発生しやすく、かなり厄介な手続きです...&lt;/span&gt;&lt;span class="blog-card-url"&gt;skyticket.jp&lt;/span&gt;&lt;/a&gt;&lt;/div&gt;
     &lt;/div&gt;
 
@@ -165,15 +164,14 @@
         &lt;h3&gt;&lt;span&gt;2&lt;/span&gt;ワクチンは一ヶ月前から&lt;/h3&gt;
         &lt;p&gt;渡航用のワクチン接種はしておいたほうが安心！&lt;/p&gt;
         &lt;p&gt;抗体ができるまでの期間や複数回接種を考慮する必要がある。&lt;/p&gt;
-        &lt;p&gt;最低でも出発の一ヶ月前にはクリニックで打ち始めなければ自分みたいに大急ぎでクリニックを探し、結局間に合わずノーワクチン残機1機ハラハラインド旅行を楽しむことになる！！！&lt;/p&gt;
+        &lt;p&gt;最低でも出発の一ヶ月前にはクリニックで打ち始めなければ、自分みたいに大急ぎでクリニックを探し、結局間に合わずノーワクチン残機1機ハラハラインド旅行を楽しむことになる！！！&lt;/p&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;!-- ★区切り線を追加 --&gt;
 &lt;hr class="minimal-divider"&gt;
 
 &lt;div class="minimal-section"&gt;
-    &lt;h2&gt;２.移動について&lt;/h2&gt;
+    &lt;h2&gt;２. 移動について&lt;/h2&gt;
 
     &lt;div class="minimal-item"&gt;
         &lt;h3&gt;&lt;span&gt;1&lt;/span&gt;Uber配車時のスクショは必須！&lt;/h3&gt;
@@ -195,16 +193,15 @@
         &lt;p&gt;さらに、停車時間がわずか一分しかない駅もあった。&lt;/p&gt;
         &lt;p&gt;基本到着するのが早くなることはないが、アプリの予測を鵜呑みにすると痛い目に遭うと思う。自分が乗った列車はかなり予測時間が変動した。&lt;/p&gt;
         &lt;p&gt;↓"updated 3m ago"って書いてあるように頻繁にアプデあり&lt;/p&gt;
-        &lt;img src="https://uruuruuruu.github.io/my-india-blog/images/train.jpg" alt="詐欺師の戯言" style="width: 35%; margin: 0 auto;"&gt;
+        &lt;img src="https://uruuruuruu.github.io/my-india-blog/images/train.jpg" alt="列車の運行状況" style="width: 35%; margin: 0 auto;"&gt;
         &lt;p&gt;最短で何時間っていうのは調べればわかると思うから、その最短時間の時には起きておくべき。&lt;/p&gt;
     &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;!-- ★区切り線を追加 --&gt;
 &lt;hr class="minimal-divider"&gt;
 
 &lt;div class="minimal-section"&gt;
-    &lt;h2&gt;３.対人関係と困ったときに&lt;/h2&gt;
+    &lt;h2&gt;３. 対人関係と困ったときに&lt;/h2&gt;
 
     &lt;div class="minimal-item"&gt;
         &lt;h3&gt;&lt;span&gt;1&lt;/span&gt;客引きは透明人間！&lt;/h3&gt;
@@ -227,11 +224,10 @@
     &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;!-- ★区切り線を追加 --&gt;
 &lt;hr class="minimal-divider"&gt;
 
 &lt;div class="minimal-section"&gt;
-    &lt;h2&gt;４.食べ物と旅の計画&lt;/h2&gt;
+    &lt;h2&gt;４. 食べ物と旅の計画&lt;/h2&gt;
 
     &lt;div class="minimal-item"&gt;
         &lt;h3&gt;&lt;span&gt;1&lt;/span&gt;生野菜と氷は絶対避ける！&lt;/h3&gt;
@@ -250,7 +246,7 @@
 &lt;hr class="minimal-divider"&gt;
 
 &lt;div class="minimal-section"&gt;
-    &lt;h2&gt;５.まとめ&lt;/h2&gt;
+    &lt;h2&gt;５. まとめ&lt;/h2&gt;
 
     &lt;div class="minimal-item"&gt;
         &lt;h3&gt;&lt;span&gt;Excited!&lt;/span&gt;刺激的すぎたインド旅行&lt;/h3&gt;
@@ -258,4 +254,6 @@
         &lt;p&gt;しかし、もう一度行くだろうという確信がある。それぐらいチャーミングな国であった。&lt;/p&gt;
         &lt;p&gt;Thank you india!&lt;/p&gt;
     &lt;/div&gt;
+&lt;/div&gt;
+
 &lt;/div&gt;</content><category term="インド"/><category term="旅行"/><category term="準備"/><category term="カルチャーショック"/></entry></feed>
